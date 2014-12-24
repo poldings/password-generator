@@ -1,0 +1,13 @@
+/* TEAM */
+Developer: Vincent Polding
+Site: http://www.poldings.com
+Location: Whitehead, Co Antrim, Northern Ireland
+
+Designer: Vincent Polding
+Site: http://www.poldings.com
+Location: Whitehead, Co Antrim, Northern Ireland
+
+/* SITE */
+Last update: 20-Dec-2014
+Standards: PHP5, mySQL5, HTML5, CSS3
+Software: Zend Studio, Wordpad, IPswitch, 

@@ -1,0 +1,203 @@
+/* 
+ * -------------------------------
+ * PASSWORD GENERATOR
+ * -------------------------------
+ * by Vincent Polding
+ * contact: http://www.poldings.com
+ * demo site: http://password-generator.poldings.com
+ * 20th Dec 2014
+*/
+
+/*
+* -------------------------------  
+* MAIN PORTAL STLESHEET
+* ------------------------------- 
+*/
+/* global reset padding and margins */
+*,html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,sub-menu,nav,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/*
+ * -------------------------------
+ * MAIN STRUCTURE
+ * -------------------------------
+ */
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: 100%/1.4 'Times New Roman', Times, serif;
+	color: #444;
+	background-color: #f1f1f1;
+}
+
+/*
+ * -------------------------------
+ * FONTS
+ * -------------------------------
+ */
+.yellowtail {
+	font-family: 'Yellowtail', cursive;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* 
+ * -------------------------------
+ * WRAPPERS
+ * -------------------------------
+*/
+.envelope {
+	color: #444;
+	clear: both;
+	width: 90%;
+	max-width: 1200px;
+	margin: 0px auto 20px auto;
+	position: relative;
+	padding: 0;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	box-shadow: 0 0 8px #666;
+	background-color: #fff;
+	clear: both;
+}
+
+/*
+ * -------------------------------
+ * HEADER
+ * -------------------------------
+ */
+.header-content {
+	text-align: center;
+	padding: 20px;
+}
+
+/*
+ * -------------------------------
+ * PAGE
+ * -------------------------------
+ */
+.page-content {
+	text-align: center;
+	padding: 20px;
+}
+
+.password {
+	border: 1px dashed #ccc;
+	padding: 20px;
+	margin: 0 0 20px 0;
+	font-size: 200%;
+	color: #cc0066;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 200%;
+}
+
+.words {
+	font-size: 200%;
+	color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 0 20px 0;
+}
+
+.numbers {
+	font-size: 130%;
+	margin: 0 0 20px 0;
+}
+
+/*
+ * -------------------------------
+ * FOOTER
+ * -------------------------------
+ */
+.footer-content {
+	text-align: center;
+	padding: 20px;
+	margin: 0 0 30px 0;
+}
+
+/*
+ * -------------------------------
+ * LINKS
+ * -------------------------------
+ */
+a,a:link,a:visited,a:active {
+	color: #006699;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: transparent;
+	color: #cc0066;
+}
+
+.button {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+/*
+ * -------------------------------
+ * TITLE TAGS
+ * -------------------------------
+ */
+h1 {
+	font-size: 250%;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	font-size: 180%;
+	font-weight: normal;
+	margin: 10px 0 10px 0;
+}
+
+h3 {
+	font-size: 150%;
+	font-weight: normal;
+}
+
+/*
+ * -------------------------------
+ * COMMON ELEMENTS
+ * -------------------------------
+ */
+p {
+	font-size: 130%;
+	margin: 0 0 20px 0;
+	line-height: 150%;
+}
+
+/* 
+ * -------------------------------
+ * RESPONSIVE MEASURES
+ * -------------------------------
+*/
+@media only screen and (max-width: 480px) {
+	.page-content,.header-content {
+		padding-top: 0;
+	}
+	h1 {
+		font-size: 200%;
+		margin: 0;
+	}
+	h2 {
+		font-size: 150%;
+		margin: 0;
+	}
+	.envelope {
+		background: #fff;
+	}
+	p {
+		line-height: 120%;
+	}
+}
