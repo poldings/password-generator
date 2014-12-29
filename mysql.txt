@@ -1,0 +1,57 @@
+-------------------------------
+PASSWORD GENERATOR
+-------------------------------
+by Vincent Polding
+contact: http://www.poldings.com
+demo site: http://password-generator.poldings.com
+20th Dec 2014
+-------------------------------
+
+CREATE TABLE IF NOT EXISTS `adjectives` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `value` varchar(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+
+--
+-- Dumping data for table `adjectives`
+--
+
+INSERT INTO `adjectives` (`id`, `value`) VALUES
+(1, 'bitter'),
+(2, 'sweet'),
+(3, 'tangy'),
+(4, 'tasty'),
+(5, 'minty'),
+(6, 'pickled'),
+(7, 'bland'),
+(8, 'fruity'),
+(9, 'fluffy'),
+(10, 'sharp';
+
+-- --------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS `nouns` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `value` varchar(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+
+--
+-- Dumping data for table `nouns`
+--
+
+INSERT INTO `nouns` (`id`, `value`) VALUES
+(1, 'fish'),
+(2, 'snake'),
+(3, 'sheep'),
+(4, 'wolf'),
+(5, 'horse'),
+(6, 'lion'),
+(7, 'tiger'),
+(8, 'hippo'),
+(9, 'chicken'),
+(10, 'duck');
+
+-- --------------------------------------------------------
+
